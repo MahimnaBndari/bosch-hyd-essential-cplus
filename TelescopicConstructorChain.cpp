@@ -19,8 +19,6 @@ class BankCustomer{
         this->name=nameArg;
         this->adharNumber=adharNumberArg;
         this->panNumber=panNumberArg;
-        this->emailId="";
-        this->phoneNumber="";
         
     }
        BankCustomer(string nameArg,string adharNumberArg,string panNumberArg,string emailArg,string phoneArg){
