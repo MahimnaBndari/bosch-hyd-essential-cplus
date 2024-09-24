@@ -13,7 +13,7 @@ class Date{
 		cout<<this->day<<"-"<<this->month<<"-"<<this->year<<endl;
 		}
 		void operator++(){
-		this->day+=1;
+		//this->day+=1;
 		}
 };
 
