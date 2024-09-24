@@ -8,4 +8,3 @@ project (hello_cmake)
 
 # Add an executable
 add_executable(hello_cmake DelegatingConstructor.cpp)
-add_executable(hello_cmake TelescopicConstructorChain.cpp)
