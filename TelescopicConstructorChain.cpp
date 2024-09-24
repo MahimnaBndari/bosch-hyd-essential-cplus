@@ -47,13 +47,13 @@ class BankCustomer{
 
 int main() {
        // Using constructor with name, adharNumber, and panNumber
-    BankCustomer customer1("John Doe", "1234-5678-9012", "ABCDE1234F");
+    BankCustomer customer1("chikku", "1234-5678-9012", "ABCDE1234F");
     cout << "Customer 1 Info:" << endl;
     customer1.printCustomerInfo();
     cout << endl;
 
     // Using constructor with name, adharNumber, panNumber, email, and phone
-    BankCustomer customer2("Jane Doe", "5678-9012-3456", "XYZ1234AB", "jane@example.com", "9876543210");
+    BankCustomer customer2("Mahimna", "5678-9012-3456", "XYZ1234AB", "mahimna@gmail.com", "9876543210");
     cout << "Customer 2 Info:" << endl;
     customer2.printCustomerInfo();
 
